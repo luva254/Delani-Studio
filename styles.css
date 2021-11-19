@@ -141,6 +141,17 @@ h5{
 }
 .container .section-4 .services-icons{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 30px;
+
+}
+.container .section-4 .services-icons .icon-1{
+    margin-right: 200px;
+}
+.container .section-4 .services-icons .icon-2{
+    margin-right: 160px;
+}
+.container .section-4 .services-icons .icon-3{
+    margin-right: 60px;
 }
