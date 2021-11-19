@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 .container .section-1{
+    box-sizing: border-box;
+    padding: 3px ;
     background-image:url("images/assets/backgrounds/h_img.jpg");
-    padding: 30px;
-    background-repeat: no-repeat;
-
     background-size:cover ;
-    height: 60vh; 
+    min-height: 30em; 
     width: 100vw;
     
+}
+.container .section-1 .logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 70px;
 }
