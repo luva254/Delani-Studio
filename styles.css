@@ -34,6 +34,8 @@ h1{
     
 }
 .container .section-2{
-    background-image: linear-gradient(#fff);
-    
+    background-color: rgb(163, 77, 77);
+    background-size: cover;
+    height: 40vh;
+    width: 100vw;
 }
