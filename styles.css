@@ -92,6 +92,38 @@ p3{
     background-image: url(images/assets/backgrounds/s_image.jpg);
     background-size: cover;
     width: 100vw;
-    height: 29rem;
+    height: 25rem;
     
+}
+h4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+p6{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    
+}
+p7{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+p8{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
 }
