@@ -95,7 +95,7 @@ p3{
     height: 20rem;
     
 }
-h5{
+h4{
     position: relative;
     display: flex;
     justify-content: center;
@@ -127,4 +127,9 @@ p8{
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
+}
+.container .section-4{
+    background-color: rgb(184, 33, 184);
+    height: 20rem;
+    width: 100vw;
 }
