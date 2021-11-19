@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-img{
-    height: 70vh;
+.container .section-1{
+    background-image:url("images/assets/backgrounds/h_img.jpg");
+    padding: 30px;
+    background-repeat: no-repeat;
+
+    background-size:cover ;
+    height: 60vh; 
     width: 100vw;
-    background-size: 650px;
+    
 }
