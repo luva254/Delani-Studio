@@ -18,3 +18,13 @@
     margin-top: 130px;
     margin-left: 70px;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}h2{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 10px;
+}
