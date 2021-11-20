@@ -165,14 +165,10 @@ h6{
     margin-top: 50px;
     font-size: 20px;
 }
-.container .section-4 .grid-container{
-    height: 40vh;
-    display: grid;
-    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr;
-    grid-template-rows: repeat(3, 1fr); 
-    justify-items: space-evenly;
-    align-items: center;
-    
+.container .section-4 .the-containers{
+    display: flex;
+    justify-content: center;
+
 }
 .container .section-5{
     background-image: url(images/assets/backgrounds/c_image.jpg);
@@ -180,6 +176,7 @@ h6{
     background-size: cover;
     height: 60vh;
     width: 100vw;
+    
 }
 h7{
     display: flex;
@@ -217,7 +214,7 @@ h7{
 .container .section-6{
     background-color: rgb(172, 110, 110);
     background-size: cover;
-    background-position: center;
+    
     height: 20vh;
     width: 100vw;
 }
@@ -226,5 +223,6 @@ h7{
     justify-content: center;
     display: flex;
     align-items: center;
+    
 
 }
