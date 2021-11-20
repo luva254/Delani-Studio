@@ -134,7 +134,7 @@ p8{
 }
 .container .section-4{
     background-color: rgb(184, 33, 184);
-    height: 20rem;
+    height: 40rem;
     width: 100vw;
 }
 h5{
@@ -159,7 +159,7 @@ h5{
 .container .section-4 .services-icons .icon-3{
     margin-right: 60px;
 }
-H6{
+h6{
     display: flex;
     justify-content: center;
     margin-top: 50px;
