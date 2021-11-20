@@ -23,14 +23,14 @@
 
 
 ## 1.Project Name
----
-Delani Studio Website
 
+Delani Studio Website
+---
 ## 2.Project Description
 ---
 This project is based on  Denali Studio where
 we offer a variety of services like brand strategy,visual designs and user experince testing
-
+---
 ## 3.Author 
 ---
 
