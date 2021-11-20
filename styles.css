@@ -134,7 +134,7 @@ p8{
 }
 .container .section-4{
     background-color: rgb(184, 33, 184);
-    height: 40rem;
+    height: 45rem;
     width: 100vw;
 }
 h5{
@@ -173,4 +173,10 @@ h6{
     justify-items: space-evenly;
     align-items: center;
     
+}
+.container .section-5{
+    background-image: url(images/assets/backgrounds/c_image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
 }
