@@ -159,3 +159,9 @@ h5{
 .container .section-4 .services-icons .icon-3{
     margin-right: 60px;
 }
+H6{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
