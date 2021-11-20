@@ -165,3 +165,12 @@ h6{
     margin-top: 50px;
     font-size: 20px;
 }
+.container .section-4 .grid-container{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-template-rows: repeat(3, 1fr); 
+    justify-items: space-evenly;
+    align-items: center;
+    
+}
