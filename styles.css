@@ -214,3 +214,10 @@ h7{
     color: #fff;
     text-align: initial;
 }
+.container .section-6{
+    background-color: rgb(172, 110, 110);
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    width: 100vw;
+}
