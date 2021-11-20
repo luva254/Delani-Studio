@@ -187,3 +187,30 @@ h7{
     font-size: 20px;
     font-weight: bold;
 }
+.container .section-5 .name-email-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container .section-5 .name-email-input .name{
+    width: 20rem;
+    background: transparent ;
+    color: #fff;
+
+}
+.container .section-5 .name-email-input .email{
+    width: 20rem;
+    background: transparent ;
+    color: #fff;
+}
+
+.container .section-5 .name-email-input .feedback{
+    position: relative;
+    margin-top: 50px;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    background: transparent;
+    color: #fff;
+    text-align: initial;
+}
