@@ -12,7 +12,9 @@
     
     background-image:url("images/assets/backgrounds/h_img.jpg");
     background-size:cover ;
-    min-height: 30em; 
+    background-position: center center;
+    
+    min-height: 40em; 
     width: 100vw;
     
 }
@@ -25,23 +27,25 @@
 .container .section-1 .mouse-icon{
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 180px;
 }
 h1{
     display: flex;
     justify-content: center;
     color: #fff;
+    margin-top: 20px;
 }h2{
     display: flex;
     justify-content: center;
     color: #fff;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 p5{
     display: flex;
     justify-content: center;
     color: #fff;
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 10px;
 
 }
