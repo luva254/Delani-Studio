@@ -221,3 +221,10 @@ h7{
     height: 20vh;
     width: 100vw;
 }
+
+.container .section-6 .social-icons-1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
