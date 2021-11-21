@@ -189,6 +189,11 @@ h6{
     font-family: 'Open sans',sans-serif;
 
 }
+.container .section-4 .services-container{
+    display: flex;
+    justify-content: center;
+}
+
 .container .section-4 .the-containers{
     display: flex;
     justify-content: center;
