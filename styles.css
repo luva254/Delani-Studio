@@ -17,6 +17,7 @@
     min-height: 40em; 
     width: 100vw;
     
+    
 }
 .container .section-1 .logo{
     display: flex;
@@ -34,12 +35,15 @@ h1{
     justify-content: center;
     color: #fff;
     margin-top: 20px;
+    font-family: "open sans",sans-serif;
 }h2{
     display: flex;
     justify-content: center;
     color: #fff;
     margin-top: 30px;
     margin-left: 10px;
+    font-family: "open sans",sans-serif;
+
 }
 p5{
     display: flex;
@@ -47,6 +51,7 @@ p5{
     color: #fff;
     margin-top: 30px;
     font-size: 10px;
+    font-family: "open sans",sans-serif;
 
 }
 .container .section-1 .navbar-links{
@@ -64,12 +69,16 @@ p5{
 h3{
     display: flex;
     justify-content: center;
+    font-family: 'Open sans',sans-serif;
+
 }
 p{
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 20px;
+    font-family: 'Open sans',sans-serif;
+
 }
 p1{
     display: flex;
@@ -77,12 +86,16 @@ p1{
     text-align: center;
     font-size: 20px;
     margin-top: 12px;
+    font-family: 'Open sans',sans-serif;
+
 }
 p2{
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 20px;
+    font-family: 'Open sans',sans-serif;
+
     margin-top: 12px;
 }
 p3{
@@ -91,6 +104,8 @@ p3{
     text-align: center;
     font-size: 20px;
     margin-top: 12px;
+    font-family: 'Open sans',sans-serif;
+
 }
 .container .section-3{
     background-image: url(images/assets/backgrounds/s_image.jpg);
@@ -105,6 +120,7 @@ h4{
     justify-content: center;
     color: #fff;
     font-size: 20px;
+    font-family: 'Open sans',sans-serif;
     
 }
 p6{
@@ -114,6 +130,7 @@ p6{
     text-align: center;
     margin-top: 80px;
     font-size: 20px;
+    font-family: 'Open sans',sans-serif;
     
 }
 p7{
@@ -123,6 +140,8 @@ p7{
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
+    font-family: 'Open sans',sans-serif;
+
 }
 p8{
     display: flex;
@@ -131,6 +150,8 @@ p8{
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
+    font-family: 'Open sans',sans-serif;
+
 }
 .container .section-4{
     background-color: rgb(184, 33, 184);
@@ -141,6 +162,7 @@ h5{
     display: flex;
     justify-content: center;
     font-size: 20px;
+    font-family: 'Open sans',sans-serif;
     
 }
 .container .section-4 .services-icons{
@@ -164,6 +186,8 @@ h6{
     justify-content: center;
     margin-top: 50px;
     font-size: 20px;
+    font-family: 'Open sans',sans-serif;
+
 }
 .container .section-4 .the-containers{
     display: flex;
@@ -183,6 +207,8 @@ h7{
     justify-content: center;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Open sans',sans-serif;
+
 }
 .container .section-5 .name-email-input{
     display: flex;
@@ -219,10 +245,23 @@ h7{
     width: 100vw;
 }
 
-.container .section-6 .social-icons-1{
-    justify-content: center;
+.container .section-6 .social-icons{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
     
-
+}
+p9{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Open sans',sans-serif;
+    font-size: 15px;
+}
+.social-icons-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-grow: 10px;
 }
