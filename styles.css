@@ -15,9 +15,11 @@
     background-position: center center;
     
     min-height: 40em; 
-    width: 100vw;
-    
-    
+    width: 100vw; 
+}
+.container .section-1 .navbar-links{
+    display: flex;
+    justify-content: space-around;
 }
 .container .section-1 .logo{
     display: flex;
@@ -189,11 +191,6 @@ h6{
     font-family: 'Open sans',sans-serif;
 
 }
-.container .section-4 .services-container{
-    display: flex;
-    justify-content: center;
-}
-
 .container .section-4 .the-containers{
     display: flex;
     justify-content: center;
