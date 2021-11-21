@@ -52,24 +52,24 @@
             <h5>WHAT WE DO</h5>
             <div class="services-icons">
                 <details>
-                    <summary><img src="images/assets/services_icons/design_icon.png" alt=""></summary>
-                    Design
+                    <summary><img id="design" src="images/assets/services_icons/design_icon.png" alt=""></summary>
+                    DESIGN
                   <div class="details">
                     <p10>Our design practice offers a full range of services<br> including brand strategy,interaction and visual design<br>and user experience testing</p10>
                     <p11>Throughout your project,our design create and<br>implement visual designers create and <br>implement visual design and workflows,solicit user<br>feedback and work with you to make sure what gets built<br>is what is needed.<p11>
                   </div>
                 </details>
                 <details>
-                    <summary><img src="images/assets/services_icons/dev_icon.png" alt=""></summary>
-                    Development
+                    <summary><img id="development" src="images/assets/services_icons/dev_icon.png" alt=""></summary>
+                    DEVELOPMENT
                   <div class="details">
                     <p10>All engineers are fluent in the latest enterprise,mobile<br>and web development technologies.</p10>
                     <p11>They collaborate with your team to write,and improve<br>code on a daily basis,using proven practices such as<br>test-driven development and pair programming.</p11>
                   </div>
                 </details>
                 <details>
-                    <summary><img src="images/assets/services_icons/product_icon.png" alt=""></summary>
-                    Product management
+                    <summary><img id="management" src="images/assets/services_icons/product_icon.png" alt=""></summary>
+                    PRODUCT MANAGEMENT
                   <div class="details">
                    <p10>Planning and development is iterative.Because we are<br>constanly coding and testing.The products we are<br>always ready to go live.</p10>
                    <p11>This iterative process allows for changes as business<br>requirments evolve</p11>
@@ -104,21 +104,23 @@
         <section class="section-5">
             <h7>CONTACT US</h7>
             <div class="name-email-input">
-               <form action="#">
-                <input class="name" type="text" placeholder="Name...">
-                <input class="email" type="text" placeholder="Email...">
-                <div class="ff">
-                    <input class="feedback" type="text" placeholder="Your message here...">
+               <form name="form1" action="#" onsubmit="required()">
+                <input class="name" type="text" name="names" placeholder="Name..." onsubmit="required()">
+                <input class="email" type="text" name="emails" placeholder="Email..." onsubmit="required()">
+                <div class="ff" >
+                    <input class="feedback" name="feedbacks" type="text" placeholder="Your message here..." onsubmit="required()">
                 </div>
+                <input id="smt" type="submit" value="submit" style="margin-top: 10px; margin-left: 300px; background-color: #555152;width: 3rem;">
                </form>
             </div>
         </section>
         <section class="section-6">
-            <img class="social-icons-1" src="images/assts/social_icons/twitter.png" alt="">
+            
 
             <div class="">
                 <div class="row">
                     <div class="social-icons">
+                        <img src="images/assets/social_icons/twitter.png" alt="">
                         <img class="social-icons-2" src="images/assets/social_icons/dribble.png" alt="">
                     <img class="social-icons-3" src="images/assets/social_icons/facebook.png" alt="">
                     <img class="social-icons-4" src="images/assets/social_icons/g_plus.png" alt="">
@@ -135,5 +137,6 @@
             
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
