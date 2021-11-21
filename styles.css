@@ -157,7 +157,7 @@ p7{
 p8{
     display: flex;
     justify-content: center;
-    color: white;
+    color: #ffffff;
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
@@ -165,8 +165,8 @@ p8{
 
 }
 .container .section-4{
-    background-color: rgb(250, 250, 250);
-    height: 45rem;
+    background-color: #fff;
+    height: 47rem;
     width: 100vw;
 }
 h5{
@@ -180,10 +180,9 @@ h5{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    font-family: 'open sans',sans-serif;
 }
-.section-4 .services-icons, p11{
-    margin-top: 10px;
-}
+
 h6{
     display: flex;
     justify-content: center;
@@ -242,7 +241,7 @@ h7{
     text-align: initial;
 }
 .container .section-6{
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     background-size: cover;
     
     height: 20vh;
